@@ -1,0 +1,38 @@
+#!/bin/zsh
+
+echo "📥 Restoring dotfiles from GitHub..."
+
+# Where to clone the dotfiles repo
+CLONE_DIR="$HOME/.restore_temp"
+DOTFILES_REPO="git@github.com:Haz0x-1337/mydotfiles.git"
+
+# Clone fresh copy
+rm -rf $CLONE_DIR
+git clone $DOTFILES_REPO $CLONE_DIR
+
+echo "⚙️ Copying configs back into place..."
+
+# Kitty
+cp -r $CLONE_DIR/.config/kitty ~/.config/
+
+# Hyprland
+cp -r $CLONE_DIR/.config/hypr ~/.config/
+
+# Waybar
+cp -r $CLONE_DIR/.config/waybar ~/.config/
+
+# Fastfetch
+cp -r $CLONE_DIR/.config/fastfetch ~/.config/
+
+# Starship
+cp $CLONE_DIR/.config/starship.toml ~/.config/
+
+# Zsh config
+cp $CLONE_DIR/.zshrc ~/
+
+echo "✅ Dotfiles restored. Reload your shell or window manager to apply."
+
+
+chmod +x restore_dotfiles.sh
+
+./restore_dotfiles.sh
