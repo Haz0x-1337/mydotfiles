@@ -1,0 +1,22 @@
+format = "$username@$hostname in  $directory $git_branch$character"
+
+[username]
+show_always = true
+style_user = "deep red"
+style_root = "deep red"
+format = "[$user]($style)"
+
+[hostname]
+#disabled = true
+ssh_only = false
+style = "deep red"
+format = "$hostname"
+
+[directory]
+style = "yellow"
+
+[character]
+success_symbol = "[➜](yellow)"
+error_symbol = "[➜](bold red)"
+
+

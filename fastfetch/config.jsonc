@@ -1,0 +1,129 @@
+
+{
+"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+"logo": {
+  "padding": {
+    "top": 1
+  },
+  "color": {
+    "1": "red",
+    "2": "yellow",
+    "3": "green",
+    "4": "#FFD700"
+  }
+},
+"display": {
+"separator": " 󰑃  "
+},
+"modules": [
+    "break",
+    {
+    "type": "os",
+    "key": " DISTRO",
+    "keyColor": "#DAA520"
+    },
+    {
+    "type": "kernel",
+    "key": "│ ├",
+    "keyColor": "#DAA520"
+    },
+    {
+    "type": "packages",
+    "key": "│ ├󰏖",
+    "keyColor": "#DAA520"
+    },
+    {
+    "type": "shell",
+    "key": "│ └",
+    "keyColor": "#DAA520"
+    },
+    {
+    "type": "wm",
+    "key": " DE/WM",
+    "keyColor": "#DAA520"
+    },
+    {
+    "type": "wmtheme",
+    "key": "│ ├󰉼",
+    "keyColor": "#DAA520"
+    },
+    {
+    "type": "icons",
+    "key": "│ ├󰀻",
+    "keyColor": "#DAA520"
+    },
+    {
+        "type": "cursor",
+        "key": "│ ├",
+        "keyColor": "#DAA520",
+    },
+    {
+        "type": "terminalfont",
+        "key": "│ ├",
+        "keyColor": "#DAA520",
+    },
+    {
+    "type": "terminal",
+    "key": "│ └",
+    "keyColor": "#DAA520"
+    },
+    {
+    "type": "host",
+    "key": "󰌢 SYSTEM",
+    "keyColor": "#DAA520"
+    },
+    {
+    "type": "cpu",
+    "key": "│ ├󰻠",
+    "keyColor": "#DAA520"
+    },
+    {
+    "type": "gpu",
+    "key": "│ ├󰻑",
+    "format": "{2}",
+    "keyColor": "#DAA520"
+    },
+    {
+            "type": "display",
+    "key": "│ ├󰍹",
+    "keyColor": "#DAA520",
+    "compactType": "original-with-refresh-rate"
+    },
+    {
+    "type": "memory",
+    "key": "│ ├󰾆",
+    "keyColor": "#DAA520"
+    },   
+    {
+    "type": "uptime",
+    "key": "│ ├󰅐",
+    "keyColor": "#DAA520"
+    },
+    {
+    "type": "display",
+    "key": "│ └󰍹",
+    "keyColor": "#DAA520"
+    },
+    {
+    "type": "sound",
+    "key": " AUDIO",
+    "format": "{2}",
+    "keyColor": "#DAA520"
+    },
+    {
+    "type": "player",
+    "key": "│ ├󰥠",
+    "keyColor": "#DAA520"
+    },
+    {
+    "type": "media",
+    "key": "│ └󰝚",
+    "keyColor": "#DAA520"
+    },
+    {
+    "type": "custom",
+    "format": "\u001b[33m  \u001b[33m  \u001b[33m  \u001b[33m  \u001b[33m  \u001b[33m  \u001b[33m  \u001b[33m  \u001b[33m  \u001b[33m  \u001b[33m    \u001b[33m  \u001b[33m  \u001b[33m  \u001b[33m  \u001b[33m  \u001b[33m  \u001b[33m  \u001b[33m  \u001b[33m "
+    },
+    "break",
+    ]
+}
