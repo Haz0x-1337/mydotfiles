@@ -59,7 +59,7 @@ source <(fzf --zsh)
 export PATH="$HOME/TOOLS/john-jumbo/run:$PATH"
 export PATH="$HOME/bin:$PATH"
 export PATH="$HOME/Personal/Scripts:$PATH"
-export PATH="$PATH:$HOME/.local/share/gem/ruby/3.4.0/bin"
+export PATH="$HOME/.local/share/gem/ruby/3.4.0/bin:$PATH"
 
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
