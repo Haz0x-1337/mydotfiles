@@ -24,6 +24,20 @@ source $ZSH/oh-my-zsh.sh
 
 # fastfetch. Will be disabled if above colorscript was chosen to install
 fastfetch 
+#WORDLISTS
+rockyou="/usr/share/SecLists/Passwords/Leaked-Databases/rockyou.txt"
+
+user1="/usr/share/SecLists/Usernames/top-usernames-shortlist.txt"
+user2="/usr/share/SecLists/Usernames/xato-net-10-million-usernames.txt"
+
+pass1="/usr/share/SecLists/Passwords/Common-Credentials/10k-most-common.txt"
+pass2="/usr/share/SecLists/Passwords/Common-Credentials/500-worst-passwords.txt"
+
+dir1="/usr/share/SecLists/Discovery/Web-Content/common.txt"
+dir2="/usr/share/SecLists/Discovery/Web-Content/big.txt"
+
+sub1="/usr/share/SecLists/Discovery/DNS/subdomains-top1million-5000.txt"
+sub2="/usr/share/SecLists/Discovery/DNS/bitquark-subdomains-top100000.txt"
 
 # Set-up icons for files/directories in terminal using lsd
 alias ls='lsd'
@@ -45,6 +59,7 @@ source <(fzf --zsh)
 export PATH="$HOME/TOOLS/john-jumbo/run:$PATH"
 export PATH="$HOME/bin:$PATH"
 export PATH="$HOME/Personal/Scripts:$PATH"
+export PATH="$PATH:$HOME/.local/share/gem/ruby/3.4.0/bin"
 
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
@@ -60,5 +75,4 @@ matrix() {
 figlet HAZZLIGHTYEAR | lolcat | awk '{printf "%*s\n", (80 + length)/2, $0}'
 # Starship + Oh My Zsh
 eval "$(starship init zsh)"
-
 
