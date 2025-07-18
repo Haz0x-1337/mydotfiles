@@ -29,7 +29,6 @@
 	"custom/separator#blank_2",
 //	"mpris",
 	"group/notify",
-	"tray",
 	],
 "modules-center": [
 	"clock#forest",
@@ -46,6 +45,7 @@
 	"custom/separator#blank_2",
 	"group/audio",
 	],
+
 
 // Additional / Edited Waybar Modules //
 "custom/arch": {
@@ -95,7 +95,7 @@
 },
 
 "cpu#forest": {
-	"format": "Cpu  󰍛  {usage}%",
+	"format": " 󰍛  {usage}%",
 	"interval": 1,
 	"min-length": 5,
 	"format-alt-click": "click",
@@ -106,20 +106,20 @@
 	"on-click-right": "gnome-system-monitor",
 },
 
-"disk#forest": {
-	"interval": 30,
-	//"format": "Disk    󰋊",
-	"path": "/",
-	//"format-alt-click": "click",
-	"format": "Disk 󰋊  {used}",
-  "on-click-right": "baobab",
+//"disk#forest": {
+//	"interval": 30,
+//	//"format": "Disk    󰋊",
+//	"path": "/",
+//	//"format-alt-click": "click",
+//	"format": "Disk 󰋊  {used}",
+// "on-click-right": "baobab",
 //	"tooltip": true,
 //	"tooltip-format": "Disk    {used} used out of {total} on {path} ({percentage_used}%)",
-},
+//},
 
 "memory#forest": {
 	"interval": 10,
-	"format": "Ram  󰾆  {used:0.1f}G",
+	"format": " 󰾆  {used:0.1f}G",
 	"format-alt": "Ram    {percentage}%    󰾆",
 	"format-alt-click": "click",
 	"tooltip": true,

@@ -9,7 +9,7 @@ plugins=(
     git
     archlinux
     zsh-autosuggestions
-    #zsh-syntax-highlighting
+    zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -40,11 +40,8 @@ sub1="/usr/share/SecLists/Discovery/DNS/subdomains-top1million-5000.txt"
 sub2="/usr/share/SecLists/Discovery/DNS/bitquark-subdomains-top100000.txt"
 
 # Set-up icons for files/directories in terminal using lsd
-alias ls='lsd'
-alias l='ls -l'
-alias la='ls -a'
-alias lla='ls -la'
-alias lt='ls --tree'
+
+
 alias thmvpn='sudo openvpn ~/Downloads/haz0x.ovpn'
 alias thmkill='sudo pkill openvpn'
 alias cupdate='/home/hazroot/Personal/Scripts/cupdate.sh'

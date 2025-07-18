@@ -84,16 +84,16 @@
 	"on-click-right": "$HOME/.config/hypr/scripts/Wlogout.sh",
 },
 
-"bluetooth": {
-	"format": " ",
-	"format-disabled": "󰂳",
-	"format-connected": "󰂱 {num_connections}",
-	"tooltip-format": " {device_alias}",
-	"tooltip-format-connected": "{device_enumerate}",
-	"tooltip-format-enumerate-connected": " {device_alias} 󰂄{device_battery_percentage}%",
-	"tooltip": true,
-	"on-click": "blueman-manager",
-},
+//"bluetooth": {
+//	"format": " ",
+//	"format-disabled": "󰂳",
+//	"format-connected": "󰂱 {num_connections}",
+//	"tooltip-format": " {device_alias}",
+//	"tooltip-format-connected": "{device_enumerate}",
+//	"tooltip-format-enumerate-connected": " {device_alias} 󰂄{device_battery_percentage}%",
+//	"tooltip": true,
+//	"on-click": "blueman-manager",
+//},
 
 "clock": {
 	"interval": 1,
@@ -267,40 +267,40 @@
 	"max-length": 30,
 },
 
-"network": {
-	"format": "{ifname}",
-	"format-wifi": "{icon}",
-	"format-ethernet": "󰌘",
-	"format-disconnected": "󰌙",
-	"tooltip-format": "{ipaddr}  {bandwidthUpBits}  {bandwidthDownBits}",
-	"format-linked": "󰈁 {ifname} (No IP)",
-	"tooltip-format-wifi": "{essid} {icon} {signalStrength}%",
-	"tooltip-format-ethernet": "{ifname} 󰌘",
-	"tooltip-format-disconnected": "󰌙 Disconnected",
-	"max-length": 30,
-	"format-icons": [
-		"󰤯", "󰤟", "󰤢", "󰤥", "󰤨"
-	],
-	"on-click-right": "$HOME/.config/hypr/scripts/WaybarScripts.sh --nmtui"
-},
+//"network": {
+//	"format": "{ifname}",
+//	"format-wifi": "{icon}",
+//	"format-ethernet": "󰌘",
+//	"format-disconnected": "󰌙",
+//	"tooltip-format": "{ipaddr}  {bandwidthUpBits}  {bandwidthDownBits}",
+//	"format-linked": "󰈁 {ifname} (No IP)",
+//	"tooltip-format-wifi": "{essid} {icon} {signalStrength}%",
+//	"tooltip-format-ethernet": "{ifname} 󰌘",
+//	"tooltip-format-disconnected": "󰌙 Disconnected",
+//	"max-length": 30,
+//	"format-icons": [
+//		"󰤯", "󰤟", "󰤢", "󰤥", "󰤨"
+//	],
+//	"on-click-right": "$HOME/.config/hypr/scripts/WaybarScripts.sh --nmtui"
+//},
 
-"network#speed": {
-	"interval": 1,
-	"format": "{ifname}",
-	"format-wifi": "{icon}  {bandwidthUpBytes}  {bandwidthDownBytes}",
-	"format-ethernet": "󰌘  {bandwidthUpBytes}  {bandwidthDownBytes}",
-	"format-disconnected": "󰌙",
-	"tooltip-format": "{ipaddr}",
-	"format-linked": "󰈁 {ifname} (No IP)",
-	"tooltip-format-wifi": "{essid} {icon} {signalStrength}%",
-	"tooltip-format-ethernet": "{ifname} 󰌘",
-	"tooltip-format-disconnected": "󰌙 Disconnected",
-	"min-length": 24,
-	"max-length": 24,
-	"format-icons": [
-		"󰤯", "󰤟", "󰤢", "󰤥", "󰤨"
-	]
-},
+//"network#speed": {
+//	"interval": 1,
+//	"format": "{ifname}",
+//	"format-wifi": "{icon}  {bandwidthUpBytes}  {bandwidthDownBytes}",
+//	"format-ethernet": "󰌘  {bandwidthUpBytes}  {bandwidthDownBytes}",
+//	"format-disconnected": "󰌙",
+//	"tooltip-format": "{ipaddr}",
+//	"format-linked": "󰈁 {ifname} (No IP)",
+//	"tooltip-format-wifi": "{essid} {icon} {signalStrength}%",
+//	"tooltip-format-ethernet": "{ifname} 󰌘",
+//	"tooltip-format-disconnected": "󰌙 Disconnected",
+//	"min-length": 24,
+//	"max-length": 24,
+//	"format-icons": [
+//		"󰤯", "󰤟", "󰤢", "󰤥", "󰤨"
+//	]
+//},
 
 "power-profiles-daemon": {
   "format": "{icon} ",
