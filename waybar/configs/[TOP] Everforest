@@ -44,6 +44,7 @@
   	"battery#forest",
 	"custom/separator#blank_2",
 	"group/audio",
+	"group/power",
 	],
 
 

@@ -57,6 +57,7 @@ export PATH="$HOME/TOOLS/john-jumbo/run:$PATH"
 export PATH="$HOME/bin:$PATH"
 export PATH="$HOME/Personal/Scripts:$PATH"
 export PATH="$HOME/.local/share/gem/ruby/3.4.0/bin:$PATH"
+export LS_COLORS="ow=01;34:"
 
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
@@ -67,7 +68,7 @@ matrix() {
   clear
   echo -e "\033[1;32mInitializing Matrix Protocol...\033[33m"
   sleep 1
-  cmatrix -B -C red
+  cmatrix -B -C white
 }
 figlet HAZZLIGHTYEAR | lolcat | awk '{printf "%*s\n", (80 + length)/2, $0}'
 # Starship + Oh My Zsh
