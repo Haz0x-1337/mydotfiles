@@ -70,7 +70,7 @@ matrix() {
   sleep 1
   cmatrix -B -C white
 }
-figlet HAZZLIGHTYEAR | lolcat | awk '{printf "%*s\n", (80 + length)/2, $0}'
+figlet FUKIKUYUMMY | lolcat | awk '{printf "%*s\n", (80 + length)/2, $0}'
 # Starship + Oh My Zsh
 eval "$(starship init zsh)"
 
